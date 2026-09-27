@@ -1,0 +1,17 @@
+{
+	"name": "sql_OmniCanal",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "dw-sql-prac1-76494296.database.windows.net",
+			"database": "db-datafactory-sisger76494296",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "cesar",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDY5MzVCNUI5LTlERjYtNDNDMy1BMzVCLTBDNDVGMEM4NjU5NV9hZjdjODE4Ny03Y2Q2LTQ3MmEtOTQyZC1kMGViN2Y2YjlhMjgiDQp9"
+		}
+	}
+}
